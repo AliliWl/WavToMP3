@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8197DD681DEC1AB800D2E2D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8197DD671DEC1AB800D2E2D6 /* main.m */; };
+		8197DD6B1DEC1AB800D2E2D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8197DD6A1DEC1AB800D2E2D6 /* AppDelegate.m */; };
+		8197DD6E1DEC1AB800D2E2D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8197DD6D1DEC1AB800D2E2D6 /* ViewController.m */; };
+		8197DD711DEC1AB800D2E2D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8197DD6F1DEC1AB800D2E2D6 /* Main.storyboard */; };
+		8197DD731DEC1AB800D2E2D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8197DD721DEC1AB800D2E2D6 /* Assets.xcassets */; };
+		8197DD761DEC1AB800D2E2D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8197DD741DEC1AB800D2E2D6 /* LaunchScreen.storyboard */; };
+		8197DD811DEC1AB800D2E2D6 /* WavToMP3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8197DD801DEC1AB800D2E2D6 /* WavToMP3Tests.m */; };
+		8197DD8C1DEC1AB800D2E2D6 /* WavToMP3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8197DD8B1DEC1AB800D2E2D6 /* WavToMP3UITests.m */; };
+		8197DD9C1DEC1AE900D2E2D6 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8197DD9B1DEC1AE900D2E2D6 /* libmp3lame.a */; };
+		8197DD9F1DEC1B1F00D2E2D6 /* WavToMP3.m in Sources */ = {isa = PBXBuildFile; fileRef = 8197DD9E1DEC1B1F00D2E2D6 /* WavToMP3.m */; };
+		8197DDA11DEC1CAB00D2E2D6 /* 49.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8197DDA01DEC1CAB00D2E2D6 /* 49.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8197DD7D1DEC1AB800D2E2D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8197DD5B1DEC1AB800D2E2D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8197DD621DEC1AB800D2E2D6;
+			remoteInfo = WavToMP3;
+		};
+		8197DD881DEC1AB800D2E2D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8197DD5B1DEC1AB800D2E2D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8197DD621DEC1AB800D2E2D6;
+			remoteInfo = WavToMP3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8197DD631DEC1AB800D2E2D6 /* WavToMP3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WavToMP3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8197DD671DEC1AB800D2E2D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8197DD691DEC1AB800D2E2D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8197DD6A1DEC1AB800D2E2D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8197DD6C1DEC1AB800D2E2D6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8197DD6D1DEC1AB800D2E2D6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8197DD701DEC1AB800D2E2D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8197DD721DEC1AB800D2E2D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8197DD751DEC1AB800D2E2D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8197DD771DEC1AB800D2E2D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8197DD7C1DEC1AB800D2E2D6 /* WavToMP3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WavToMP3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8197DD801DEC1AB800D2E2D6 /* WavToMP3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WavToMP3Tests.m; sourceTree = "<group>"; };
+		8197DD821DEC1AB800D2E2D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8197DD871DEC1AB800D2E2D6 /* WavToMP3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WavToMP3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8197DD8B1DEC1AB800D2E2D6 /* WavToMP3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WavToMP3UITests.m; sourceTree = "<group>"; };
+		8197DD8D1DEC1AB800D2E2D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8197DD9A1DEC1AE900D2E2D6 /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		8197DD9B1DEC1AE900D2E2D6 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		8197DD9D1DEC1B1F00D2E2D6 /* WavToMP3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WavToMP3.h; sourceTree = "<group>"; };
+		8197DD9E1DEC1B1F00D2E2D6 /* WavToMP3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WavToMP3.m; sourceTree = "<group>"; };
+		8197DDA01DEC1CAB00D2E2D6 /* 49.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 49.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8197DD601DEC1AB800D2E2D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8197DD9C1DEC1AE900D2E2D6 /* libmp3lame.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8197DD791DEC1AB800D2E2D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8197DD841DEC1AB800D2E2D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8197DD5A1DEC1AB800D2E2D6 = {
+			isa = PBXGroup;
+			children = (
+				8197DD651DEC1AB800D2E2D6 /* WavToMP3 */,
+				8197DD7F1DEC1AB800D2E2D6 /* WavToMP3Tests */,
+				8197DD8A1DEC1AB800D2E2D6 /* WavToMP3UITests */,
+				8197DD641DEC1AB800D2E2D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8197DD641DEC1AB800D2E2D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8197DD631DEC1AB800D2E2D6 /* WavToMP3.app */,
+				8197DD7C1DEC1AB800D2E2D6 /* WavToMP3Tests.xctest */,
+				8197DD871DEC1AB800D2E2D6 /* WavToMP3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8197DD651DEC1AB800D2E2D6 /* WavToMP3 */ = {
+			isa = PBXGroup;
+			children = (
+				8197DD991DEC1AE900D2E2D6 /* Tool */,
+				8197DD691DEC1AB800D2E2D6 /* AppDelegate.h */,
+				8197DD6A1DEC1AB800D2E2D6 /* AppDelegate.m */,
+				8197DD6C1DEC1AB800D2E2D6 /* ViewController.h */,
+				8197DD6D1DEC1AB800D2E2D6 /* ViewController.m */,
+				8197DD6F1DEC1AB800D2E2D6 /* Main.storyboard */,
+				8197DD721DEC1AB800D2E2D6 /* Assets.xcassets */,
+				8197DD741DEC1AB800D2E2D6 /* LaunchScreen.storyboard */,
+				8197DD771DEC1AB800D2E2D6 /* Info.plist */,
+				8197DD661DEC1AB800D2E2D6 /* Supporting Files */,
+			);
+			path = WavToMP3;
+			sourceTree = "<group>";
+		};
+		8197DD661DEC1AB800D2E2D6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8197DD671DEC1AB800D2E2D6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8197DD7F1DEC1AB800D2E2D6 /* WavToMP3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8197DD801DEC1AB800D2E2D6 /* WavToMP3Tests.m */,
+				8197DD821DEC1AB800D2E2D6 /* Info.plist */,
+			);
+			path = WavToMP3Tests;
+			sourceTree = "<group>";
+		};
+		8197DD8A1DEC1AB800D2E2D6 /* WavToMP3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				8197DD8B1DEC1AB800D2E2D6 /* WavToMP3UITests.m */,
+				8197DD8D1DEC1AB800D2E2D6 /* Info.plist */,
+			);
+			path = WavToMP3UITests;
+			sourceTree = "<group>";
+		};
+		8197DD991DEC1AE900D2E2D6 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				8197DDA01DEC1CAB00D2E2D6 /* 49.wav */,
+				8197DD9A1DEC1AE900D2E2D6 /* lame.h */,
+				8197DD9B1DEC1AE900D2E2D6 /* libmp3lame.a */,
+				8197DD9D1DEC1B1F00D2E2D6 /* WavToMP3.h */,
+				8197DD9E1DEC1B1F00D2E2D6 /* WavToMP3.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8197DD621DEC1AB800D2E2D6 /* WavToMP3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8197DD901DEC1AB800D2E2D6 /* Build configuration list for PBXNativeTarget "WavToMP3" */;
+			buildPhases = (
+				8197DD5F1DEC1AB800D2E2D6 /* Sources */,
+				8197DD601DEC1AB800D2E2D6 /* Frameworks */,
+				8197DD611DEC1AB800D2E2D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WavToMP3;
+			productName = WavToMP3;
+			productReference = 8197DD631DEC1AB800D2E2D6 /* WavToMP3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8197DD7B1DEC1AB800D2E2D6 /* WavToMP3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8197DD931DEC1AB800D2E2D6 /* Build configuration list for PBXNativeTarget "WavToMP3Tests" */;
+			buildPhases = (
+				8197DD781DEC1AB800D2E2D6 /* Sources */,
+				8197DD791DEC1AB800D2E2D6 /* Frameworks */,
+				8197DD7A1DEC1AB800D2E2D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8197DD7E1DEC1AB800D2E2D6 /* PBXTargetDependency */,
+			);
+			name = WavToMP3Tests;
+			productName = WavToMP3Tests;
+			productReference = 8197DD7C1DEC1AB800D2E2D6 /* WavToMP3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8197DD861DEC1AB800D2E2D6 /* WavToMP3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8197DD961DEC1AB800D2E2D6 /* Build configuration list for PBXNativeTarget "WavToMP3UITests" */;
+			buildPhases = (
+				8197DD831DEC1AB800D2E2D6 /* Sources */,
+				8197DD841DEC1AB800D2E2D6 /* Frameworks */,
+				8197DD851DEC1AB800D2E2D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8197DD891DEC1AB800D2E2D6 /* PBXTargetDependency */,
+			);
+			name = WavToMP3UITests;
+			productName = WavToMP3UITests;
+			productReference = 8197DD871DEC1AB800D2E2D6 /* WavToMP3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8197DD5B1DEC1AB800D2E2D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = wangli;
+				TargetAttributes = {
+					8197DD621DEC1AB800D2E2D6 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = ATZE84JKJV;
+						ProvisioningStyle = Automatic;
+					};
+					8197DD7B1DEC1AB800D2E2D6 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = ATZE84JKJV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8197DD621DEC1AB800D2E2D6;
+					};
+					8197DD861DEC1AB800D2E2D6 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = ATZE84JKJV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8197DD621DEC1AB800D2E2D6;
+					};
+				};
+			};
+			buildConfigurationList = 8197DD5E1DEC1AB800D2E2D6 /* Build configuration list for PBXProject "WavToMP3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8197DD5A1DEC1AB800D2E2D6;
+			productRefGroup = 8197DD641DEC1AB800D2E2D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8197DD621DEC1AB800D2E2D6 /* WavToMP3 */,
+				8197DD7B1DEC1AB800D2E2D6 /* WavToMP3Tests */,
+				8197DD861DEC1AB800D2E2D6 /* WavToMP3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8197DD611DEC1AB800D2E2D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8197DD761DEC1AB800D2E2D6 /* LaunchScreen.storyboard in Resources */,
+				8197DD731DEC1AB800D2E2D6 /* Assets.xcassets in Resources */,
+				8197DD711DEC1AB800D2E2D6 /* Main.storyboard in Resources */,
+				8197DDA11DEC1CAB00D2E2D6 /* 49.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8197DD7A1DEC1AB800D2E2D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8197DD851DEC1AB800D2E2D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8197DD5F1DEC1AB800D2E2D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8197DD6E1DEC1AB800D2E2D6 /* ViewController.m in Sources */,
+				8197DD6B1DEC1AB800D2E2D6 /* AppDelegate.m in Sources */,
+				8197DD9F1DEC1B1F00D2E2D6 /* WavToMP3.m in Sources */,
+				8197DD681DEC1AB800D2E2D6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8197DD781DEC1AB800D2E2D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8197DD811DEC1AB800D2E2D6 /* WavToMP3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8197DD831DEC1AB800D2E2D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8197DD8C1DEC1AB800D2E2D6 /* WavToMP3UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8197DD7E1DEC1AB800D2E2D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8197DD621DEC1AB800D2E2D6 /* WavToMP3 */;
+			targetProxy = 8197DD7D1DEC1AB800D2E2D6 /* PBXContainerItemProxy */;
+		};
+		8197DD891DEC1AB800D2E2D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8197DD621DEC1AB800D2E2D6 /* WavToMP3 */;
+			targetProxy = 8197DD881DEC1AB800D2E2D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8197DD6F1DEC1AB800D2E2D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8197DD701DEC1AB800D2E2D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8197DD741DEC1AB800D2E2D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8197DD751DEC1AB800D2E2D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8197DD8E1DEC1AB800D2E2D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8197DD8F1DEC1AB800D2E2D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8197DD911DEC1AB800D2E2D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ATZE84JKJV;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = WavToMP3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WavToMP3/Tool",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangli.WavToMP3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8197DD921DEC1AB800D2E2D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ATZE84JKJV;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = WavToMP3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WavToMP3/Tool",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangli.WavToMP3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8197DD941DEC1AB800D2E2D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ATZE84JKJV;
+				INFOPLIST_FILE = WavToMP3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangli.WavToMP3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WavToMP3.app/WavToMP3";
+			};
+			name = Debug;
+		};
+		8197DD951DEC1AB800D2E2D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ATZE84JKJV;
+				INFOPLIST_FILE = WavToMP3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangli.WavToMP3Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WavToMP3.app/WavToMP3";
+			};
+			name = Release;
+		};
+		8197DD971DEC1AB800D2E2D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ATZE84JKJV;
+				INFOPLIST_FILE = WavToMP3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangli.WavToMP3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WavToMP3;
+			};
+			name = Debug;
+		};
+		8197DD981DEC1AB800D2E2D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ATZE84JKJV;
+				INFOPLIST_FILE = WavToMP3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangli.WavToMP3UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WavToMP3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8197DD5E1DEC1AB800D2E2D6 /* Build configuration list for PBXProject "WavToMP3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8197DD8E1DEC1AB800D2E2D6 /* Debug */,
+				8197DD8F1DEC1AB800D2E2D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8197DD901DEC1AB800D2E2D6 /* Build configuration list for PBXNativeTarget "WavToMP3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8197DD911DEC1AB800D2E2D6 /* Debug */,
+				8197DD921DEC1AB800D2E2D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8197DD931DEC1AB800D2E2D6 /* Build configuration list for PBXNativeTarget "WavToMP3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8197DD941DEC1AB800D2E2D6 /* Debug */,
+				8197DD951DEC1AB800D2E2D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8197DD961DEC1AB800D2E2D6 /* Build configuration list for PBXNativeTarget "WavToMP3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8197DD971DEC1AB800D2E2D6 /* Debug */,
+				8197DD981DEC1AB800D2E2D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8197DD5B1DEC1AB800D2E2D6 /* Project object */;
+}
